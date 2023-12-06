@@ -12,7 +12,6 @@ function Products() {
     <section className="container px-4 px-lg-5 mt-5">
       <div className="row gx-4 gx-lg-5 row-cols row-cols-md-2 row-cols-xl-4 justify-content-center">
         {
-            
             products.map((item, index) => {
                 return <ProductCard product={item} key={index} />;
               })
